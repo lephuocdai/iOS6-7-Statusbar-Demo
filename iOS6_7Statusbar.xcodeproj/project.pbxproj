@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCBCAC13187B45B700F600B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC12187B45B700F600B7 /* Foundation.framework */; };
+		CCBCAC15187B45B700F600B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC14187B45B700F600B7 /* CoreGraphics.framework */; };
+		CCBCAC17187B45B700F600B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC16187B45B700F600B7 /* UIKit.framework */; };
+		CCBCAC1D187B45B700F600B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAC1B187B45B700F600B7 /* InfoPlist.strings */; };
+		CCBCAC1F187B45B700F600B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBCAC1E187B45B700F600B7 /* main.m */; };
+		CCBCAC23187B45B700F600B7 /* EWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBCAC22187B45B700F600B7 /* EWAppDelegate.m */; };
+		CCBCAC26187B45B700F600B7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAC24187B45B700F600B7 /* Main_iPhone.storyboard */; };
+		CCBCAC29187B45B700F600B7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAC27187B45B700F600B7 /* Main_iPad.storyboard */; };
+		CCBCAC2C187B45B700F600B7 /* EWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBCAC2B187B45B700F600B7 /* EWViewController.m */; };
+		CCBCAC2E187B45B700F600B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAC2D187B45B700F600B7 /* Images.xcassets */; };
+		CCBCAC35187B45B700F600B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC34187B45B700F600B7 /* XCTest.framework */; };
+		CCBCAC36187B45B700F600B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC12187B45B700F600B7 /* Foundation.framework */; };
+		CCBCAC37187B45B700F600B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC16187B45B700F600B7 /* UIKit.framework */; };
+		CCBCAC3F187B45B700F600B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAC3D187B45B700F600B7 /* InfoPlist.strings */; };
+		CCBCAC41187B45B700F600B7 /* iOS6_7StatusbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBCAC40187B45B700F600B7 /* iOS6_7StatusbarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCBCAC38187B45B700F600B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBCAC07187B45B700F600B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBCAC0E187B45B700F600B7;
+			remoteInfo = iOS6_7Statusbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCBCAC0F187B45B700F600B7 /* iOS6_7Statusbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS6_7Statusbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBCAC12187B45B700F600B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCBCAC14187B45B700F600B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCBCAC16187B45B700F600B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCBCAC1A187B45B700F600B7 /* iOS6_7Statusbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS6_7Statusbar-Info.plist"; sourceTree = "<group>"; };
+		CCBCAC1C187B45B700F600B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCBCAC1E187B45B700F600B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCBCAC20187B45B700F600B7 /* iOS6_7Statusbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS6_7Statusbar-Prefix.pch"; sourceTree = "<group>"; };
+		CCBCAC21187B45B700F600B7 /* EWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWAppDelegate.h; sourceTree = "<group>"; };
+		CCBCAC22187B45B700F600B7 /* EWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWAppDelegate.m; sourceTree = "<group>"; };
+		CCBCAC25187B45B700F600B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CCBCAC28187B45B700F600B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CCBCAC2A187B45B700F600B7 /* EWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWViewController.h; sourceTree = "<group>"; };
+		CCBCAC2B187B45B700F600B7 /* EWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWViewController.m; sourceTree = "<group>"; };
+		CCBCAC2D187B45B700F600B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCBCAC33187B45B700F600B7 /* iOS6_7StatusbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS6_7StatusbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBCAC34187B45B700F600B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCBCAC3C187B45B700F600B7 /* iOS6_7StatusbarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS6_7StatusbarTests-Info.plist"; sourceTree = "<group>"; };
+		CCBCAC3E187B45B700F600B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCBCAC40187B45B700F600B7 /* iOS6_7StatusbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS6_7StatusbarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCBCAC0C187B45B700F600B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBCAC15187B45B700F600B7 /* CoreGraphics.framework in Frameworks */,
+				CCBCAC17187B45B700F600B7 /* UIKit.framework in Frameworks */,
+				CCBCAC13187B45B700F600B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBCAC30187B45B700F600B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBCAC35187B45B700F600B7 /* XCTest.framework in Frameworks */,
+				CCBCAC37187B45B700F600B7 /* UIKit.framework in Frameworks */,
+				CCBCAC36187B45B700F600B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCBCAC06187B45B700F600B7 = {
+			isa = PBXGroup;
+			children = (
+				CCBCAC18187B45B700F600B7 /* iOS6_7Statusbar */,
+				CCBCAC3A187B45B700F600B7 /* iOS6_7StatusbarTests */,
+				CCBCAC11187B45B700F600B7 /* Frameworks */,
+				CCBCAC10187B45B700F600B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCBCAC10187B45B700F600B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBCAC0F187B45B700F600B7 /* iOS6_7Statusbar.app */,
+				CCBCAC33187B45B700F600B7 /* iOS6_7StatusbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBCAC11187B45B700F600B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCBCAC12187B45B700F600B7 /* Foundation.framework */,
+				CCBCAC14187B45B700F600B7 /* CoreGraphics.framework */,
+				CCBCAC16187B45B700F600B7 /* UIKit.framework */,
+				CCBCAC34187B45B700F600B7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCBCAC18187B45B700F600B7 /* iOS6_7Statusbar */ = {
+			isa = PBXGroup;
+			children = (
+				CCBCAC21187B45B700F600B7 /* EWAppDelegate.h */,
+				CCBCAC22187B45B700F600B7 /* EWAppDelegate.m */,
+				CCBCAC24187B45B700F600B7 /* Main_iPhone.storyboard */,
+				CCBCAC27187B45B700F600B7 /* Main_iPad.storyboard */,
+				CCBCAC2A187B45B700F600B7 /* EWViewController.h */,
+				CCBCAC2B187B45B700F600B7 /* EWViewController.m */,
+				CCBCAC2D187B45B700F600B7 /* Images.xcassets */,
+				CCBCAC19187B45B700F600B7 /* Supporting Files */,
+			);
+			path = iOS6_7Statusbar;
+			sourceTree = "<group>";
+		};
+		CCBCAC19187B45B700F600B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBCAC1A187B45B700F600B7 /* iOS6_7Statusbar-Info.plist */,
+				CCBCAC1B187B45B700F600B7 /* InfoPlist.strings */,
+				CCBCAC1E187B45B700F600B7 /* main.m */,
+				CCBCAC20187B45B700F600B7 /* iOS6_7Statusbar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCBCAC3A187B45B700F600B7 /* iOS6_7StatusbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBCAC40187B45B700F600B7 /* iOS6_7StatusbarTests.m */,
+				CCBCAC3B187B45B700F600B7 /* Supporting Files */,
+			);
+			path = iOS6_7StatusbarTests;
+			sourceTree = "<group>";
+		};
+		CCBCAC3B187B45B700F600B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBCAC3C187B45B700F600B7 /* iOS6_7StatusbarTests-Info.plist */,
+				CCBCAC3D187B45B700F600B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCBCAC0E187B45B700F600B7 /* iOS6_7Statusbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBCAC44187B45B700F600B7 /* Build configuration list for PBXNativeTarget "iOS6_7Statusbar" */;
+			buildPhases = (
+				CCBCAC0B187B45B700F600B7 /* Sources */,
+				CCBCAC0C187B45B700F600B7 /* Frameworks */,
+				CCBCAC0D187B45B700F600B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS6_7Statusbar;
+			productName = iOS6_7Statusbar;
+			productReference = CCBCAC0F187B45B700F600B7 /* iOS6_7Statusbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCBCAC32187B45B700F600B7 /* iOS6_7StatusbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBCAC47187B45B700F600B7 /* Build configuration list for PBXNativeTarget "iOS6_7StatusbarTests" */;
+			buildPhases = (
+				CCBCAC2F187B45B700F600B7 /* Sources */,
+				CCBCAC30187B45B700F600B7 /* Frameworks */,
+				CCBCAC31187B45B700F600B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBCAC39187B45B700F600B7 /* PBXTargetDependency */,
+			);
+			name = iOS6_7StatusbarTests;
+			productName = iOS6_7StatusbarTests;
+			productReference = CCBCAC33187B45B700F600B7 /* iOS6_7StatusbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCBCAC07187B45B700F600B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Electricwoods LLC";
+				TargetAttributes = {
+					CCBCAC32187B45B700F600B7 = {
+						TestTargetID = CCBCAC0E187B45B700F600B7;
+					};
+				};
+			};
+			buildConfigurationList = CCBCAC0A187B45B700F600B7 /* Build configuration list for PBXProject "iOS6_7Statusbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCBCAC06187B45B700F600B7;
+			productRefGroup = CCBCAC10187B45B700F600B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBCAC0E187B45B700F600B7 /* iOS6_7Statusbar */,
+				CCBCAC32187B45B700F600B7 /* iOS6_7StatusbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCBCAC0D187B45B700F600B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBCAC29187B45B700F600B7 /* Main_iPad.storyboard in Resources */,
+				CCBCAC2E187B45B700F600B7 /* Images.xcassets in Resources */,
+				CCBCAC26187B45B700F600B7 /* Main_iPhone.storyboard in Resources */,
+				CCBCAC1D187B45B700F600B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBCAC31187B45B700F600B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBCAC3F187B45B700F600B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCBCAC0B187B45B700F600B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBCAC2C187B45B700F600B7 /* EWViewController.m in Sources */,
+				CCBCAC23187B45B700F600B7 /* EWAppDelegate.m in Sources */,
+				CCBCAC1F187B45B700F600B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBCAC2F187B45B700F600B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBCAC41187B45B700F600B7 /* iOS6_7StatusbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCBCAC39187B45B700F600B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBCAC0E187B45B700F600B7 /* iOS6_7Statusbar */;
+			targetProxy = CCBCAC38187B45B700F600B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCBCAC1B187B45B700F600B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBCAC1C187B45B700F600B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCBCAC24187B45B700F600B7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBCAC25187B45B700F600B7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CCBCAC27187B45B700F600B7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBCAC28187B45B700F600B7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CCBCAC3D187B45B700F600B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBCAC3E187B45B700F600B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCBCAC42187B45B700F600B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCBCAC43187B45B700F600B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCBCAC45187B45B700F600B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS6_7Statusbar/iOS6_7Statusbar-Prefix.pch";
+				INFOPLIST_FILE = "iOS6_7Statusbar/iOS6_7Statusbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCBCAC46187B45B700F600B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS6_7Statusbar/iOS6_7Statusbar-Prefix.pch";
+				INFOPLIST_FILE = "iOS6_7Statusbar/iOS6_7Statusbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCBCAC48187B45B700F600B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS6_7Statusbar.app/iOS6_7Statusbar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS6_7Statusbar/iOS6_7Statusbar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS6_7StatusbarTests/iOS6_7StatusbarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCBCAC49187B45B700F600B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS6_7Statusbar.app/iOS6_7Statusbar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS6_7Statusbar/iOS6_7Statusbar-Prefix.pch";
+				INFOPLIST_FILE = "iOS6_7StatusbarTests/iOS6_7StatusbarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCBCAC0A187B45B700F600B7 /* Build configuration list for PBXProject "iOS6_7Statusbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBCAC42187B45B700F600B7 /* Debug */,
+				CCBCAC43187B45B700F600B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBCAC44187B45B700F600B7 /* Build configuration list for PBXNativeTarget "iOS6_7Statusbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBCAC45187B45B700F600B7 /* Debug */,
+				CCBCAC46187B45B700F600B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCBCAC47187B45B700F600B7 /* Build configuration list for PBXNativeTarget "iOS6_7StatusbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBCAC48187B45B700F600B7 /* Debug */,
+				CCBCAC49187B45B700F600B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCBCAC07187B45B700F600B7 /* Project object */;
+}
