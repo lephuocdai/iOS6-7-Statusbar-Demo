@@ -1,5 +1,5 @@
 //
-//  EWAppDelegate.h
+//  EWViewController.h
 //  iOS6_7Statusbar
 //
 //  Created by Kaz Yoshikawa on 14/1/6.
@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EWAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+//
+//	EWViewController
+//
+
+@interface EWMainViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

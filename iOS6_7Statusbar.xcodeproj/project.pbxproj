@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC353348187C4C9000DECC00 /* UIViewController+iOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = CC353347187C4C9000DECC00 /* UIViewController+iOS7.m */; };
+		CC56E7F6187B469C0002195C /* EWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56E7F5187B469C0002195C /* EWMainViewController.m */; };
+		CC56E7F9187B4F370002195C /* EWTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56E7F8187B4F370002195C /* EWTestViewController.m */; };
+		CC56E7FD187B50130002195C /* Autolayout~iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC56E7FC187B50130002195C /* Autolayout~iphone.storyboard */; };
+		CC56E7FF187B50360002195C /* Noneautolayout~iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC56E7FE187B50360002195C /* Noneautolayout~iphone.storyboard */; };
+		CC56E802187B50690002195C /* EWTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56E801187B50690002195C /* EWTestView.m */; };
+		CC56E804187B62BD0002195C /* Autolayout~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC56E803187B62BD0002195C /* Autolayout~iphone.xib */; };
+		CC56E806187B63040002195C /* Noneautolayout~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC56E805187B63040002195C /* Noneautolayout~iphone.xib */; };
+		CC56E80A187B92590002195C /* UIView+Z.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56E809187B92590002195C /* UIView+Z.m */; };
 		CCBCAC13187B45B700F600B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC12187B45B700F600B7 /* Foundation.framework */; };
 		CCBCAC15187B45B700F600B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC14187B45B700F600B7 /* CoreGraphics.framework */; };
 		CCBCAC17187B45B700F600B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC16187B45B700F600B7 /* UIKit.framework */; };
@@ -15,7 +24,6 @@
 		CCBCAC23187B45B700F600B7 /* EWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBCAC22187B45B700F600B7 /* EWAppDelegate.m */; };
 		CCBCAC26187B45B700F600B7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAC24187B45B700F600B7 /* Main_iPhone.storyboard */; };
 		CCBCAC29187B45B700F600B7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAC27187B45B700F600B7 /* Main_iPad.storyboard */; };
-		CCBCAC2C187B45B700F600B7 /* EWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBCAC2B187B45B700F600B7 /* EWViewController.m */; };
 		CCBCAC2E187B45B700F600B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAC2D187B45B700F600B7 /* Images.xcassets */; };
 		CCBCAC35187B45B700F600B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC34187B45B700F600B7 /* XCTest.framework */; };
 		CCBCAC36187B45B700F600B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAC12187B45B700F600B7 /* Foundation.framework */; };
@@ -35,6 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC353346187C4C8800DECC00 /* UIViewController+iOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+iOS7.h"; sourceTree = "<group>"; };
+		CC353347187C4C9000DECC00 /* UIViewController+iOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+iOS7.m"; sourceTree = "<group>"; };
+		CC56E7F4187B469C0002195C /* EWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMainViewController.h; sourceTree = "<group>"; };
+		CC56E7F5187B469C0002195C /* EWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMainViewController.m; sourceTree = "<group>"; };
+		CC56E7F7187B4F370002195C /* EWTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWTestViewController.h; sourceTree = "<group>"; };
+		CC56E7F8187B4F370002195C /* EWTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWTestViewController.m; sourceTree = "<group>"; };
+		CC56E7FC187B50130002195C /* Autolayout~iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Autolayout~iphone.storyboard"; sourceTree = "<group>"; };
+		CC56E7FE187B50360002195C /* Noneautolayout~iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Noneautolayout~iphone.storyboard"; sourceTree = "<group>"; };
+		CC56E800187B50690002195C /* EWTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWTestView.h; sourceTree = "<group>"; };
+		CC56E801187B50690002195C /* EWTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWTestView.m; sourceTree = "<group>"; };
+		CC56E803187B62BD0002195C /* Autolayout~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Autolayout~iphone.xib"; sourceTree = "<group>"; };
+		CC56E805187B63040002195C /* Noneautolayout~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Noneautolayout~iphone.xib"; sourceTree = "<group>"; };
+		CC56E808187B92590002195C /* UIView+Z.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Z.h"; sourceTree = "<group>"; };
+		CC56E809187B92590002195C /* UIView+Z.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Z.m"; sourceTree = "<group>"; };
 		CCBCAC0F187B45B700F600B7 /* iOS6_7Statusbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS6_7Statusbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBCAC12187B45B700F600B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCBCAC14187B45B700F600B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +69,6 @@
 		CCBCAC22187B45B700F600B7 /* EWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWAppDelegate.m; sourceTree = "<group>"; };
 		CCBCAC25187B45B700F600B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CCBCAC28187B45B700F600B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		CCBCAC2A187B45B700F600B7 /* EWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWViewController.h; sourceTree = "<group>"; };
-		CCBCAC2B187B45B700F600B7 /* EWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWViewController.m; sourceTree = "<group>"; };
 		CCBCAC2D187B45B700F600B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CCBCAC33187B45B700F600B7 /* iOS6_7StatusbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS6_7StatusbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBCAC34187B45B700F600B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -81,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC56E807187B92590002195C /* ZKIt */ = {
+			isa = PBXGroup;
+			children = (
+				CC353346187C4C8800DECC00 /* UIViewController+iOS7.h */,
+				CC353347187C4C9000DECC00 /* UIViewController+iOS7.m */,
+				CC56E808187B92590002195C /* UIView+Z.h */,
+				CC56E809187B92590002195C /* UIView+Z.m */,
+			);
+			path = ZKIt;
+			sourceTree = "<group>";
+		};
 		CCBCAC06187B45B700F600B7 = {
 			isa = PBXGroup;
 			children = (
@@ -118,9 +149,18 @@
 				CCBCAC22187B45B700F600B7 /* EWAppDelegate.m */,
 				CCBCAC24187B45B700F600B7 /* Main_iPhone.storyboard */,
 				CCBCAC27187B45B700F600B7 /* Main_iPad.storyboard */,
-				CCBCAC2A187B45B700F600B7 /* EWViewController.h */,
-				CCBCAC2B187B45B700F600B7 /* EWViewController.m */,
+				CC56E7F4187B469C0002195C /* EWMainViewController.h */,
+				CC56E7F5187B469C0002195C /* EWMainViewController.m */,
+				CC56E7F7187B4F370002195C /* EWTestViewController.h */,
+				CC56E7F8187B4F370002195C /* EWTestViewController.m */,
+				CC56E7FC187B50130002195C /* Autolayout~iphone.storyboard */,
+				CC56E803187B62BD0002195C /* Autolayout~iphone.xib */,
+				CC56E7FE187B50360002195C /* Noneautolayout~iphone.storyboard */,
+				CC56E805187B63040002195C /* Noneautolayout~iphone.xib */,
+				CC56E800187B50690002195C /* EWTestView.h */,
+				CC56E801187B50690002195C /* EWTestView.m */,
 				CCBCAC2D187B45B700F600B7 /* Images.xcassets */,
+				CC56E807187B92590002195C /* ZKIt */,
 				CCBCAC19187B45B700F600B7 /* Supporting Files */,
 			);
 			path = iOS6_7Statusbar;
@@ -232,7 +272,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC56E7FD187B50130002195C /* Autolayout~iphone.storyboard in Resources */,
+				CC56E7FF187B50360002195C /* Noneautolayout~iphone.storyboard in Resources */,
+				CC56E804187B62BD0002195C /* Autolayout~iphone.xib in Resources */,
 				CCBCAC29187B45B700F600B7 /* Main_iPad.storyboard in Resources */,
+				CC56E806187B63040002195C /* Noneautolayout~iphone.xib in Resources */,
 				CCBCAC2E187B45B700F600B7 /* Images.xcassets in Resources */,
 				CCBCAC26187B45B700F600B7 /* Main_iPhone.storyboard in Resources */,
 				CCBCAC1D187B45B700F600B7 /* InfoPlist.strings in Resources */,
@@ -254,8 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCBCAC2C187B45B700F600B7 /* EWViewController.m in Sources */,
+				CC56E7F9187B4F370002195C /* EWTestViewController.m in Sources */,
+				CC56E80A187B92590002195C /* UIView+Z.m in Sources */,
+				CC353348187C4C9000DECC00 /* UIViewController+iOS7.m in Sources */,
+				CC56E7F6187B469C0002195C /* EWMainViewController.m in Sources */,
 				CCBCAC23187B45B700F600B7 /* EWAppDelegate.m in Sources */,
+				CC56E802187B50690002195C /* EWTestView.m in Sources */,
 				CCBCAC1F187B45B700F600B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,7 +444,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS6_7Statusbar/iOS6_7Statusbar-Prefix.pch";
 				INFOPLIST_FILE = "iOS6_7Statusbar/iOS6_7Statusbar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,7 +459,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS6_7Statusbar/iOS6_7Statusbar-Prefix.pch";
 				INFOPLIST_FILE = "iOS6_7Statusbar/iOS6_7Statusbar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +527,7 @@
 				CCBCAC46187B45B700F600B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCBCAC47187B45B700F600B7 /* Build configuration list for PBXNativeTarget "iOS6_7StatusbarTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +536,7 @@
 				CCBCAC49187B45B700F600B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

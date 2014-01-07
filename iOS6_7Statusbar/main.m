@@ -2,7 +2,7 @@
 //  main.m
 //  iOS6_7Statusbar
 //
-//  Created by kyoshikawa on 14/1/6.
+//  Created by Kaz Yoshikawa on 14/1/6.
 //  Copyright (c) 2014 Electricwoods LLC. All rights reserved.
 //
 
